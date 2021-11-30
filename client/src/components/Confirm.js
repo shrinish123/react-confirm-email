@@ -24,7 +24,7 @@ export default class Confirm extends Component {
     const { id } = this.props.match.params
 
     fetch(`${API_URL}/email/confirm/${id}`)
-      .then(res => res.json())
+      .then(res => console.log(res.json()))
       .then(data => {
         this.setState({ confirming: false })
         notify.show(data.msg)

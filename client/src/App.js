@@ -93,8 +93,7 @@ export default class App extends Component {
           just a couple of props passed in.
         */}
         <Footer
-          mediumId={'257e5d9de725'}
-          githubRepo={'react-confirm-email'}
+         
         />
       </div>
     )
